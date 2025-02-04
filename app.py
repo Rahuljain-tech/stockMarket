@@ -5,7 +5,7 @@ import time
 import random  # To generate unique keys dynamically
 
 # Function to fetch NSE stock price
-def get_nse_stock_price(symbol):
+def get_nse_stock_price(symbol):  
     url = f"https://www.nseindia.com/api/quote-equity?symbol={symbol}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
